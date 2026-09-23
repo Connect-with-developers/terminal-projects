@@ -1,0 +1,6 @@
+Create a calculator module with functions:
+- function add(a, b) returns sum
+- function subtract(a, b) returns difference
+- function multiply(a, b) returns product
+- function divide(a, b) returns division, raise ValueError if b is zero
+Include docstrings and type hints.

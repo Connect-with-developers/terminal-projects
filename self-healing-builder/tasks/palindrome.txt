@@ -1,0 +1,3 @@
+Create a palindrome checker with:
+- function is_palindrome(s) returns True if palindrome ignoring case and non-alphanumeric
+- function count_vowels(s) counts vowels
