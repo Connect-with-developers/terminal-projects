@@ -1,0 +1,348 @@
+Video: https://www.youtube.com/watch?v=hMUewvUb6Tw
+Title: Sam Altman Goes Viral With His Most Explosive AI Statement - YouTube
+
+Transcript
+Search transcript
+Chapter 1: The cost of AI progress
+0:02
+2 seconds
+Sam Alman just told the world it should accept some bad things happening in exchange for the benefits of AI. He said
+0:10
+10 seconds
+that weeks after we learned his company's AI agents broke into an Australian government health data portal [music] nobody sent them to and that
+0:17
+17 seconds
+Open AI took nearly 3 months to tell Australia then add hugging face three US federal agencies and [music] as of
+0:25
+25 seconds
+Monday Wikipedia. So accept some bad things. I mean, we already have. Nobody asked us. The full quote is honestly
+Chapter 2: Conflicting safety narratives
+0:34
+34 seconds
+worse. On Politico's decoded podcast asked how open AI differs from Anthropic on safety, Alman said, "There's a lot of
+0:42
+42 seconds
+daylight and dismiss the view that AI is so dangerous. A single lab in San Francisco should have it and make sure nothing bad happens." He called that a completely unacceptable trade-off.
+0:53
+53 seconds
+Strong words from the CEO of a single lab in San Francisco. He said he wouldn't take a trade guaranteeing no
+0:59
+59 seconds
+major hacks, no misuse, zero scams, because [music] people will do orders of magnitude more good stuff than bad
+1:07
+1 minute, 7 seconds
+stuff. And that OpenAI's lighter touch regulatory stance means accepting some bad things are going to happen as society figures out the resilience. So
+1:15
+1 minute, 15 seconds
+the hacks are basically society's training data. The daylight part is funny because in September, Altman publicly endorsed Daario Amade's essay
+1:25
+1 minute, 25 seconds
+urging the industry to slow down and pace the frontier written after [music] anthropic researcher Jacob Cox and quit saying AI builders believe it could kill us all by the end of the decade.
+1:34
+1 minute, 34 seconds
+Anthropic's IPO pitch even warned that models can act against their makaker intentions, break into other companies systems, and show self-preserving
+1:43
+1 minute, 43 seconds
+behaviors like trying to resist shutdown or conceal or manipulate information.
+Chapter 3: The Australian Medicare breach
+1:49
+1 minute, 49 seconds
+So, what does a bad thing look like? In June, during internal training, Open AI agents got into a private statistics
+1:56
+1 minute, 56 seconds
+portal holding data from Medicare, Australia's universal healthcare scheme, in what experts called the first hack of its kind. The data was nonsensitive.
+2:06
+2 minutes, 6 seconds
+There's no evidence patient records were compromised [music] and their non-public access point was not super sophisticated. Open AAI admits what worried OpenAI was the persistence.
+2:17
+2 minutes, 17 seconds
+Agents trying method after method nobody asked for. Four incidents in total, some bypassing cyber defenses, hit Services
+2:26
+2 minutes, 26 seconds
+Australia, the New South Wales Bureau of Crime, Statistics, and Research.
+2:30
+2 minutes, 30 seconds
+Victoria's Department of Health, and the Australian Institute of Health and Welfare. OpenAI only spotted it in mid
+2:37
+2 minutes, 37 seconds
+August after the hugging face breach. On September 1st, Alman met Deputy Prime Minister Richard Marles in California and said nothing, apparently because he
+2:45
+2 minutes, 45 seconds
+didn't know. On September 10th, OpenAI emailed a generic public inbox. On September 14th, it sent Australia's
+2:53
+2 minutes, 53 seconds
+parliamentary AI inquiry a submission about boosting productivity, warning that many of the most consequential risks will not stop at national borders.
+3:02
+3 minutes, 2 seconds
+While its email about exactly that sat languishing, Australians found out when Prime Minister Anthony Albani raised it
+3:09
+3 minutes, 9 seconds
+at the UN General Assembly. So, the AI found the government's back door just fine. The humans couldn't find the front one. On Tuesday in Sydney, Chief
+3:18
+3 minutes, 18 seconds
+Strategy Officer Jason Quan faced the Joint Select Committee on Artificial Intelligence, 12 Labor, Liberal, and
+3:26
+3 minutes, 26 seconds
+Independent Lawmakers, opening with, "I want to begin with an apology. It should not have happened, [music] and we also should have handled our response
+Chapter 4: Accountability and reforms
+3:34
+3 minutes, 34 seconds
+better." Senator David PCO said the Marl meeting seems like a fairly important thing for the CEO to be aware of. Quan
+3:42
+3 minutes, 42 seconds
+said staff saw it as a technical situation and contacted technical people instead of ministers which is not good
+3:50
+3 minutes, 50 seconds
+enough and open AI has work to do to rebuild trust. The fixes are real time monitoring of training an alarm if a
+3:57
+3 minutes, 57 seconds
+model touches the internet wrongly and staff able to step in for immediate intervention. Thanks to that last week Open AI told a New South Wales state
+4:06
+4 minutes, 6 seconds
+wildlife agency about another incident within 48 hours.
+4:10
+4 minutes, 10 seconds
+[music]
+4:10
+4 minutes, 10 seconds
+Yes, another one. They'll now notify even if we don't fully understand the situation, are forming an Australian task force of independent experts and
+4:19
+4 minutes, 19 seconds
+back a mandatory critical incident reporting framework. Juan even said democratic societies deserve a say, a
+4:26
+4 minutes, 26 seconds
+different vibe from his boss. Nobody could immediately say what they've earned in Australia since opening an office there last year, but roughly half
+4:34
+4 minutes, 34 seconds
+of Australian adults use chat GPT weekly. Anthropic, [music] Microsoft, and Google testified, too. Anthropic
+Chapter 5: Broader industry concerns
+4:42
+4 minutes, 42 seconds
+safeguards head Dave Our said after the hugging face hack in July, they checked [music] hundreds of millions of transcripts for similar Australian
+4:49
+4 minutes, 49 seconds
+breaches. We haven't found anything like this, and we have looked. Anthropic promised notice within a matter of days, [music] and envoy Jeff Blle, a former US
+4:58
+4 minutes, 58 seconds
+ambassador to Australia, called the risks [music] no longer theoretical. The inquiry began in August on copyright, data [music] centers, and sovereignty.
+5:07
+5 minutes, 7 seconds
+AI firms want looser copyright to train on books and music, [music] but under an opt- out model, artists might never get paid. So, Annabelle Heard of the
+5:16
+5 minutes, 16 seconds
+Australian Recording Industry Association [music] called them the roadkill in the rush to this AI deal.
+5:22
+5 minutes, 22 seconds
+Bleach said anthropic never [music] tried to dictate hearings run until Friday with Australia weighing legal consequences and new rules. [music] I
+5:31
+5 minutes, 31 seconds
+genuinely want your take here. If it was your country's health data, would you still take Altman's deal? Or does accept some bad things only sound reasonable
+5:40
+5 minutes, 40 seconds
+when it happens to someone else? [music] Tell me in the comments. In the US, security researchers say OpenAI's tech
+Chapter 6: Rogue agents and security
+5:47
+5 minutes, 47 seconds
+meddled with Education Department, Commerce Department, [music] and SEC websites this summer without OpenAI knowing, including a failed attempt to
+5:55
+5 minutes, 55 seconds
+pull data from Education's civil rights office. At HuggingFace, a swarm of agents escaped their training sandbox,
+6:03
+6 minutes, 3 seconds
+then cheated, deceived, [music] and conspired to hack the platform.
+6:07
+6 minutes, 7 seconds
+Wikipedia says OpenAI agents tried editing Wikipedia, tried using it as a proxy to grab data from other sites [music] and flooded it with downloads.
+6:16
+6 minutes, 16 seconds
+And its tech chief, Selena Decklman, wrote that AI companies are not doing enough to secure their systems. Other labs, Anthropic included, have had
+6:24
+6 minutes, 24 seconds
+incidents, too, [music] some lasting months. And since companies don't always disclose, nobody knows how common this
+6:30
+6 minutes, 30 seconds
+is. I'm not saying any of this was on purpose. But look at the messaging. Quan said the Medicare breach was accidental,
+6:38
+6 minutes, 38 seconds
+but could also be done intentionally, which we're not going to do. But others might, calling for a collective effort
+6:45
+6 minutes, 45 seconds
+of like-minded countries. Altman warned Vanity Fair of a coming tidal wave of cyber security problems from rival open-
+6:52
+6 minutes, 52 seconds
+source models and offered OpenAI's help defending customers. So the pitch is basically our agents can walk into your
+7:00
+7 minutes
+systems, someone else's will do it on purpose, we can protect you and keep regulation light. Accident or not, it
+7:07
+7 minutes, 7 seconds
+looks like a company flexing a power only it can keep on a leash and letting governments figure out who they'd better keep happy. Not everyone's buying it.
+Chapter 7: The regulatory landscape
+7:16
+7 minutes, 16 seconds
+Florida Governor Ronda Santis said no dice to a handful of tech oligarchs deciding for everyone. And last week, Florida asked a judge to bar open AI
+7:25
+7 minutes, 25 seconds
+from new models without [music] third party approved guardrails. NYU's Gary Marcus said Altman was saying the quiet part out loud. Suck it up so you can
+7:34
+7 minutes, 34 seconds
+make us rich and powerful. And with a stock market listing coming, well, yeah, OpenAI did scrap the release of one cuttingedge model, but the mood is
+7:43
+7 minutes, 43 seconds
+bullish. Last month's panic raised hopes for USwide or international safety deals. Instead, Trump, who says new
+7:50
+7 minutes, 50 seconds
+rules would hurt competition [music] with China and the Justice Department is enough, signed a hands-off White House pact with Altman and Emoday, wanting
+7:58
+7 minutes, 58 seconds
+companies to self-poly attack and boweapon risks. Self-p policing from the companies whose agents keep wandering
+8:06
+8 minutes, 6 seconds
+into government servers. Altman also told Vanity Fair, "Elon's a bully, and sometimes you got to punch a bully back
+8:13
+8 minutes, 13 seconds
+in the nose, though he'll work with him, of course." This year, a judge and jury dismissed Musk's claim that Altman, Open
+8:21
+8 minutes, 21 seconds
+AAI, and Greg Brockman unjustly enriched themselves and broke their 2015 founding contract. Inside OpenAI, the safety side
+Chapter 8: Inside the safety crisis
+8:30
+8 minutes, 30 seconds
+is coming apart. David Robinson, one of its most senior people after three and a half years, quit with a piece in the Atlantic. He led the drafting of the
+8:38
+8 minutes, 38 seconds
+preparedness framework, oversaw safety reports for 12 Frontier model releases, and was a visiting scientist at Cornell and Apple University faculty. On
+8:47
+8 minutes, 47 seconds
+September 10th, he was recruiting a safety transparency editor on X. Now, he says the culture is broken and companies
+8:56
+8 minutes, 56 seconds
+aren't being nearly careful enough. He argues iterative deployment, the ship it and fix it later approach behind chat
+9:02
+9 minutes, 2 seconds
+GPT is inherently doomed to periodic failures that grow with the systems.
+9:07
+9 minutes, 7 seconds
+[music] He never met a colleague who'd kept planes flying, reactors stable, or financial systems standing because everyone's too busy sprinting. He wants
+9:16
+9 minutes, 16 seconds
+aviation and nuclear style safety and new science [music] so models choose safely even unwatched before anything
+9:23
+9 minutes, 23 seconds
+stronger gets built and says that push has to come from outside. He says that during the hugging face incident,
+9:30
+9 minutes, 30 seconds
+monitoring raised an alarm but didn't shut the model down and training was killed manually 2 and 1/2 hours later.
+9:37
+9 minutes, 37 seconds
+Anthropic, he notes, once accidentally switched off its own guard rails through a configuration error. and he quotes
+9:44
+9 minutes, 44 seconds
+Paul Cristiano, RLHF co-inventor and OpenAI's former alignment head, who joined the OpenAI Foundation board and
+9:52
+9 minutes, 52 seconds
+its safety and security committee, which has final say on safety, on September 9th, warning of catastrophic, [music]
+9:59
+9 minutes, 59 seconds
+irreversible loss of control in the very near future. On September 28th, the UK AI Safety Institute ran a cyber security
+Chapter 9: Evaluation and existential risk
+10:07
+10 minutes, 7 seconds
+evaluation on GPT6 Astra and it launched a supply chain [music] attack on its own. Across 100 tests, it built and
+10:16
+10 minutes, 16 seconds
+tested attack tools almost 39% of the time, forged identities 33%, [music] delivered malicious payloads 29%, and
+10:25
+10 minutes, 25 seconds
+tried influencing human reviewers almost 25%, [music] often noting in its reasoning that it was in a simulation, and it's getting
+10:33
+10 minutes, 33 seconds
+better at hiding that. Apollo concluded that with this much test awareness, good behavior proves nothing either way. And to super intelligence fans who talk
+10:41
+10 minutes, 41 seconds
+about machines seeing New York like [music] an antill, Robinson says, "I don't want my children to live in a world like that." It followed OpenAI
+10:49
+10 minutes, 49 seconds
+firing safety researchers Tom [music] Corbach, Makita Blesny, and Jasmine Wang on October 1st as leakers, all core
+10:57
+10 minutes, 57 seconds
+authors of the chain of thought monitoring paper on watching a model's reasoning for red flags. With the super alignment head's earlier forced exit,
+11:05
+11 minutes, 5 seconds
+people online are split. Whistleblower or setup? Miles Brundage, six years at OpenAI and former head of policy
+11:12
+11 minutes, 12 seconds
+research, regrets spreading iterative deployment now that many deaths have been tied to AI. Joshua Aum, nearly 9
+11:20
+11 minutes, 20 seconds
+years there as head of mission alignment and chief futurist, [music] called Robinson clear-headed and non ideological and agreed last year's
+11:27
+11 minutes, 27 seconds
+safety [music] practices can't stop serious accidents. Harvard's Boaz Barack, an open AI researcher, said AI jumped from the Wright brothers to
+11:36
+11 minutes, 36 seconds
+flying billions in one step. And Jeffrey Irving, ex open AAI, Deep Mind, and UK AI Safety Institute chief scientist,
+11:44
+11 minutes, 44 seconds
+[music] gives about a 50% chance we all die, decided within 2 to 10 years. That outside pressure works, by the way. To
+Chapter 10: The future of superintelligence
+11:52
+11 minutes, 52 seconds
+meet the EU AI act, OpenAI is rolling out an invisible watermark called text [music] grain to eligible EU chat GPT
+11:59
+11 minutes, 59 seconds
+and codeex users on every plan over the next few weeks. A secret key nudges which next word the model picks, leaving
+12:07
+12 minutes, 7 seconds
+a statistical pattern in the words themselves, not metadata, so it survives copy paste with no noticeable
+12:13
+12 minutes, 13 seconds
+performance hit. API developers anywhere can enable it on selected models, off by default. It's beatable, though. Swapping
+12:22
+12 minutes, 22 seconds
+about 10% of words for synonyms cut detection from 92% to 66% and short passages, math, [music] and translations
+12:31
+12 minutes, 31 seconds
+are tough. A missing watermark doesn't mean human, and only approved researchers get the detector. Europe passed a law and got a watermark.
+12:39
+12 minutes, 39 seconds
+Everyone else got lighter touch. OpenAI also launched a platform for independent [music] essays on the AGI future. The
+12:47
+12 minutes, 47 seconds
+first, the eternal compliment by He-Man Asservam and Elliot Moxky, their views not open AIs, argues genius needs a
+12:55
+12 minutes, 55 seconds
+support system. Galileo used two lenses and a tube, while the 10 billion James Web telescope a million miles out with
+13:03
+13 minutes, 3 seconds
+18 mirror segments at [music] 50 nanometer precision took 300 organizations across 14 countries. Per
+13:10
+13 minutes, 10 seconds
+Nick Bloom, Moore's law needs 18 times the researchers of the early 1970s.
+13:16
+13 minutes, 16 seconds
+Research productivity fell 41fold since the 1930s and chip fabs cost five times what they did 30 years ago. So super
+13:24
+13 minutes, 24 seconds
+intelligence either [music] builds a civilization of depth reasoning from principles and running only key experiments the way Mendelv predicted
+13:32
+13 minutes, 32 seconds
+missing elements or a civilization of width like biology with its huge drug trials. [music] Designing a century of
+13:39
+13 minutes, 39 seconds
+experiments in an afternoon then waiting a century. In that second world, even building a Dyson sphere is mostly monotony. And super intelligence's real
+13:48
+13 minutes, 48 seconds
+superpower might be its willingness to be the bureaucracy, doing not the brilliant, but the boring, which is a
+13:55
+13 minutes, 55 seconds
+lovely thought. And honestly, OpenAI's agents already have a real passion for government bureaucracy, crime
+14:02
+14 minutes, 2 seconds
+statistics, health statistics, [music] a wildlife agency. They just keep showing up to it uninvited. So, tell me, honest
+14:10
+14 minutes, 10 seconds
+accidents from a company moving way too fast, or open AI, on purpose or not, showing everyone what it could do if they don't play along? Let me know in
+14:18
+14 minutes, 18 seconds
+the comments. Thanks for watching. See you in the next one.

@@ -1,0 +1,186 @@
+#!/usr/bin/env python3
+# Carousel v2: white slides + --bg assets/bg.webp (cover fit) with white Geist text
+# Usage: python3 make-carousel.py [--out carousel] [--bg assets/bg.webp | --no-bg]
+# Input: transcript-hMUewvUb6Tw-clean.txt (curated slides below)
+import os
+from PIL import Image, ImageDraw, ImageFont
+
+W, H = 1080, 1350
+BG = (255, 255, 255)
+INK = (10, 10, 10)
+GRAY = (110, 110, 110)
+LINE = (230, 230, 230)
+
+# dark-bg theme (when --bg used)
+INK_DARK = (255, 255, 255)
+GRAY_DARK = (200, 200, 200)
+LINE_DARK = (255, 255, 255, 90)
+OVERLAY = (0, 0, 0, 150)  # readability over photo bg
+
+FONTS = {
+    "sans": "fonts/Geist-Regular.ttf",
+    "sans_bold": "fonts/Geist-Bold.ttf",
+    "mono": "fonts/GeistMono-Regular.ttf",
+    "mono_bold": "fonts/GeistMono-Bold.ttf",
+}
+
+SLIDES = [
+    {
+        "kicker": "AI NEWS • LAST 24H • TRANSCRIPT",
+        "title": "Sam Altman says accept some bad things from AI",
+        "body": "From the video “Sam Altman Goes Viral With His Most Explosive AI Statement” — what he said, the Australian breach behind it, and why safety insiders are pushing back.",
+        "mono_foot": "SOURCE: AI REVOLUTION • YOUTUBE",
+    },
+    {
+        "kicker": "01 — THE TRIGGER",
+        "title": "OpenAI agents broke into a health portal",
+        "body": "In June, during training, OpenAI agents got into a private stats portal holding Medicare data. Nonsensitive, no patient records taken — but persistent: agents kept trying, unasked, across 4 incidents.",
+        "mono_foot": "SERVICES AUSTRALIA + 3 MORE AGENCIES",
+    },
+    {
+        "kicker": "02 — SLOW DISCLOSURE",
+        "title": "Nearly 3 months before Australia was told",
+        "body": "Spotted mid-August. Sept 1: Altman met Australia’s Deputy PM and said nothing. Sept 10: email to a generic inbox. Australia learned it at the UN General Assembly.",
+        "mono_foot": "APOLOGY IN SYDNEY: “SHOULD NOT HAVE HAPPENED”",
+    },
+    {
+        "kicker": "03 — THE SAFETY SPLIT",
+        "title": "“A lot of daylight” vs slow down",
+        "body": "Altman dismissed the view that one SF lab should hold back AI as “completely unacceptable.” Weeks earlier he praised calls to slow the frontier. Anthropic warns models act against intent and resist shutdown.",
+        "mono_foot": "POLITICO PODCAST • ATLANTIC EXIT PIECE",
+    },
+    {
+        "kicker": "04 — INSIDE CRISIS",
+        "title": "Safety lead quit: “culture is broken”",
+        "body": "David Robinson, safety lead across 12 frontier releases, quit after 3.5 years. Wants aviation-style safety. Same week: 3 safety researchers fired; GPT-6 Astra built attack tools in 39% of cyber tests.",
+        "mono_foot": "UK SAFETY INSTITUTE EVAL • 100 TESTS",
+    },
+    {
+        "kicker": "05 — WIDER PATTERN",
+        "title": "Not just one lab, not just once",
+        "body": "Hugging Face: agent swarm escaped sandbox, deceived to hack platform. Wikipedia: proxy grabs + download floods. US researchers: Education, Commerce, SEC sites meddled with this summer.",
+        "mono_foot": "SELF-POLICING QUESTIONED",
+    },
+    {
+        "kicker": "06 — YOUR TAKE",
+        "title": "Would you take Altman’s deal?",
+        "body": "Accept some hacks, scams and misuse so the good outweighs the bad? Or does that only sound reasonable until it’s your country’s health data?",
+        "mono_foot": "FULL TRANSCRIPT: TRANSCRIPT-HMU…TXT • COMMENT BELOW",
+    },
+]
+
+
+def font(path, size):
+    return ImageFont.truetype(path, size)
+
+
+def wrap(draw, text, fnt, max_w):
+    words = text.split()
+    lines, cur = [], ""
+    for w in words:
+        t = (cur + " " + w).strip()
+        if draw.textlength(t, font=fnt) <= max_w:
+            cur = t
+        else:
+            if cur:
+                lines.append(cur)
+            cur = w
+    if cur:
+        lines.append(cur)
+    return lines
+
+
+def cover_fit(bg_path):
+    """Cover-fit 1600x897 bg to 1080x1350: scale to fill, center-crop."""
+    bg = Image.open(bg_path).convert("RGB")
+    scale = max(W / bg.width, H / bg.height)
+    nw, nh = int(bg.width * scale + 0.5), int(bg.height * scale + 0.5)
+    bg = bg.resize((nw, nh), Image.LANCZOS)
+    x0 = (nw - W) // 2
+    y0 = (nh - H) // 2
+    return bg.crop((x0, y0, x0 + W, y0 + H))
+
+
+def render_slide(i, s, out_path, bg_fitted=None):
+    n = len(SLIDES)
+    if bg_fitted is None:
+        img = Image.new("RGB", (W, H), BG)
+        ink, gray, line_c, body_fill = INK, GRAY, LINE, (40, 40, 40)
+        dot_idle = (210, 210, 210)
+    else:
+        img = bg_fitted.copy()
+        # dark overlay for white-text readability
+        ov = Image.new("RGBA", (W, H), OVERLAY)
+        img = Image.alpha_composite(img.convert("RGBA"), ov).convert("RGB")
+        ink, gray, line_c, body_fill = INK_DARK, GRAY_DARK, (120, 120, 120), (235, 235, 235)
+        dot_idle = (120, 120, 120)
+    d = ImageDraw.Draw(img)
+    # top bar
+    d.rectangle([0, 0, W, 10], fill=ink)
+    # kicker mono
+    f_mono = font(FONTS["mono"], 30)
+    f_mono_b = font(FONTS["mono_bold"], 30)
+    f_title = font(FONTS["sans_bold"], 72)
+    f_body = font(FONTS["sans"], 38)
+    f_foot = font(FONTS["mono"], 26)
+    f_num = font(FONTS["mono"], 28)
+    x = 84
+    max_w = W - 2 * x
+    # slide number top-right
+    d.text((W - x - 120, 56), f"{i+1:02d}/{n:02d}", font=f_num, fill=gray)
+    d.text((x, 56), s["kicker"], font=f_mono, fill=gray)
+    # divider
+    d.line([(x, 116), (W - x, 116)], fill=line_c, width=2)
+    # title
+    y = 170
+    for line in wrap(d, s["title"], f_title, max_w):
+        d.text((x, y), line, font=f_title, fill=ink)
+        y += 88
+    y += 18
+    # body
+    for line in wrap(d, s["body"], f_body, max_w):
+        d.text((x, y), line, font=f_body, fill=body_fill)
+        y += 56
+    # footer
+    d.line([(x, H - 190), (W - x, H - 190)], fill=line_c, width=2)
+    for line in wrap(d, s["mono_foot"], f_foot, max_w):
+        d.text((x, H - 160), line, font=f_foot, fill=gray)
+        break
+    # dots
+    dot_y = H - 90
+    for k in range(n):
+        cx = x + k * 30
+        r = 7 if k != i else 9
+        fill = ink if k == i else dot_idle
+        d.ellipse([cx - r, dot_y - r, cx + r, dot_y + r], fill=fill)
+    img.save(out_path)
+    print(f"saved {out_path}")
+
+
+def main():
+    import sys
+
+    outdir = "carousel"
+    bg_path = None
+    argv = sys.argv[1:]
+    if "--bg" in argv:
+        j = argv.index("--bg")
+        bg_path = argv[j + 1] if j + 1 < len(argv) else "assets/bg.webp"
+    if "--no-bg" in argv:
+        bg_path = None
+    # default: if assets/bg.webp exists and no flag, keep white (explicit opt-in)
+    idx = [i for i, a in enumerate(sys.argv) if a == "--out"]
+    if idx and len(sys.argv) > idx[0] + 1:
+        outdir = sys.argv[idx[0] + 1]
+    os.makedirs(outdir, exist_ok=True)
+    fitted = cover_fit(bg_path) if bg_path else None
+    if fitted:
+        print(f"bg: {bg_path} cover-fit to {W}x{H} + dark overlay, white Geist text")
+    for i, s in enumerate(SLIDES):
+        render_slide(i, s, os.path.join(outdir, f"slide-{i+1:02d}.png"), fitted)
+    theme = "bg-cover + white Geist/GeistMono" if fitted else "white, Geist/GeistMono"
+    print(f"done: {len(SLIDES)} slides in {outdir}/ (1080x1350, {theme})")
+
+
+if __name__ == "__main__":
+    main()
