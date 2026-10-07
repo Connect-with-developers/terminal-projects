@@ -1,0 +1,40 @@
+# Environment
+.env
+venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+
+# Config with credentials
+config/config.json
+config/credentials.json
+
+# Output files
+output/
+*.png
+*.jpg
+*.mp4
+
+# Database
+*.db
+automation_history.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Test
+.pytest_cache/
+.coverage
+htmlcov/

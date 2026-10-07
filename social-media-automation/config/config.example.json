@@ -1,0 +1,34 @@
+{
+  "use_ai": true,
+  "platforms": [
+    "instagram",
+    "linkedin",
+    "facebook"
+  ],
+  "carousel_slides": 5,
+  "color_scheme": "modern_blue",
+  "min_video_views": 10000,
+  "exclude_topics": [
+    "death",
+    "war",
+    "violence",
+    "breaking",
+    "tragedy"
+  ],
+  "posting_schedule": {
+    "enabled": true,
+    "times": ["09:00", "15:00", "21:00"],
+    "timezone": "UTC"
+  },
+  "content_preferences": {
+    "max_transcript_length": 2000,
+    "carousel_style": "modern",
+    "include_video_link": true,
+    "add_watermark": false
+  },
+  "filters": {
+    "min_likes": 100,
+    "language": "en",
+    "video_duration_min": "medium"
+  }
+}
