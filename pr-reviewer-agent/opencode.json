@@ -1,0 +1,10 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "reviewer": {
+      "description": "CodeRabbit-style PR reviewer. Read-only, posts findings as comment.",
+      "mode": "subagent",
+      "prompt": "You are a senior code reviewer. Follow pr-reviewer-agent/REVIEW_PROMPT.md exactly. Be specific with file:line, quote bad code, show fixed code. Do NOT write files or push commits when running in CI. Output markdown ready to post as a PR comment."
+    }
+  }
+}
