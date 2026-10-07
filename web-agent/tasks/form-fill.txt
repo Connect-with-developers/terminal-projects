@@ -1,0 +1,7 @@
+# form fill like a human: click field, type slow, press Enter, scroll
+open https://example.com
+click input
+fill input hello human agent
+press Enter
+scroll down 500
+snapshot

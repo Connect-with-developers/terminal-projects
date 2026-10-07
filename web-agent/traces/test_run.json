@@ -1,0 +1,250 @@
+{
+  "task": "/workspaces/terminal-projects/web-agent/tasks/search-click.txt",
+  "human": true,
+  "fast": false,
+  "see": false,
+  "steps": [
+    {
+      "n": 1,
+      "cmd": {
+        "action": "open",
+        "url": "https://www.duckduckgo.com",
+        "steps": 12,
+        "human": true,
+        "fast": false,
+        "headless": true,
+        "real": false
+      },
+      "result": {
+        "ok": true,
+        "mode": "simulate",
+        "action": "open",
+        "url": "https://www.duckduckgo.com",
+        "think_ms": 807,
+        "profile": {
+          "viewport": {
+            "width": 2560,
+            "height": 1440
+          },
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0"
+        },
+        "timing_ms": 0,
+        "sim_tabs": [
+          "https://www.duckduckgo.com"
+        ],
+        "sim_active": 0
+      }
+    },
+    {
+      "n": 2,
+      "cmd": {
+        "action": "search",
+        "query": "playwright python human like",
+        "url": "https://www.duckduckgo.com",
+        "steps": 12,
+        "human": true,
+        "fast": false,
+        "headless": true,
+        "real": false
+      },
+      "result": {
+        "ok": true,
+        "mode": "simulate",
+        "action": "search",
+        "query": "playwright python human like",
+        "url": "https://www.duckduckgo.com",
+        "think_ms": 683,
+        "profile": {
+          "viewport": {
+            "width": 412,
+            "height": 915
+          },
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+        },
+        "timing_ms": 0,
+        "sim_tabs": [
+          "https://www.duckduckgo.com"
+        ],
+        "sim_active": 0
+      }
+    },
+    {
+      "n": 3,
+      "cmd": {
+        "action": "scroll",
+        "direction": "down",
+        "pixels": 800,
+        "steps": 12,
+        "url": "https://www.duckduckgo.com",
+        "human": true,
+        "fast": false,
+        "headless": true,
+        "real": false
+      },
+      "result": {
+        "ok": true,
+        "mode": "simulate",
+        "action": "scroll",
+        "scroll_steps": [
+          103,
+          94,
+          90,
+          86,
+          76,
+          69,
+          67,
+          54,
+          53,
+          43,
+          34,
+          31
+        ],
+        "total": 800,
+        "think_ms": 899,
+        "profile": {
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0"
+        },
+        "timing_ms": 0,
+        "sim_tabs": [
+          "https://www.duckduckgo.com"
+        ],
+        "sim_active": 0
+      }
+    },
+    {
+      "n": 4,
+      "cmd": {
+        "action": "move",
+        "x": 600,
+        "y": 400,
+        "steps": 15,
+        "url": "https://www.duckduckgo.com",
+        "human": true,
+        "fast": false,
+        "headless": true,
+        "real": false
+      },
+      "result": {
+        "ok": true,
+        "mode": "simulate",
+        "action": "move",
+        "cursor_path": [
+          [
+            100.0,
+            100.0
+          ],
+          [
+            140.8,
+            111.2
+          ],
+          [
+            179.6,
+            125.3
+          ],
+          [
+            216.7,
+            141.9
+          ],
+          [
+            252.1,
+            160.6
+          ],
+          [
+            286.2,
+            181.1
+          ],
+          [
+            319.2,
+            202.9
+          ],
+          [
+            351.2,
+            225.7
+          ],
+          [
+            382.5,
+            249.2
+          ],
+          [
+            413.3,
+            272.9
+          ],
+          [
+            443.8,
+            296.5
+          ],
+          [
+            474.3,
+            319.6
+          ],
+          [
+            505.0,
+            341.9
+          ],
+          [
+            536.0,
+            363.0
+          ],
+          [
+            567.6,
+            382.5
+          ],
+          [
+            600.0,
+            400.0
+          ]
+        ],
+        "think_ms": 773,
+        "profile": {
+          "viewport": {
+            "width": 1366,
+            "height": 768
+          },
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0"
+        },
+        "timing_ms": 0,
+        "sim_tabs": [
+          "https://www.duckduckgo.com"
+        ],
+        "sim_active": 0
+      }
+    },
+    {
+      "n": 5,
+      "cmd": {
+        "action": "snapshot",
+        "url": "https://www.duckduckgo.com",
+        "steps": 12,
+        "human": true,
+        "fast": false,
+        "headless": true,
+        "real": false
+      },
+      "result": {
+        "ok": true,
+        "mode": "simulate",
+        "action": "snapshot",
+        "url": "https://www.duckduckgo.com",
+        "think_ms": 911,
+        "profile": {
+          "viewport": {
+            "width": 1366,
+            "height": 768
+          },
+          "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15"
+        },
+        "timing_ms": 0,
+        "sim_tabs": [
+          "https://www.duckduckgo.com"
+        ],
+        "sim_active": 0
+      }
+    }
+  ],
+  "status": "success",
+  "duration_ms": 523
+}

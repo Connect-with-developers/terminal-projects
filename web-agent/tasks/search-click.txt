@@ -1,0 +1,6 @@
+# human search + click + scroll like a user
+open https://www.duckduckgo.com
+search playwright python human like
+scroll down 800
+move 600 400
+snapshot

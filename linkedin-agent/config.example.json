@@ -1,0 +1,18 @@
+{
+  "linkedin_profile_url": "https://www.linkedin.com/in/YOUR_SLUG/",
+  "niche": "e.g. Backend Python Developer open to remote roles",
+  "target_roles": ["Backend Developer", "Python Developer", "AI Engineer"],
+  "target_keywords": ["python", "fastapi", "llm agents", "open to work"],
+  "voice": "friendly, practical, no fluff. Short lines. Shares real lessons.",
+  "post_times_ist": ["09:00", "18:30"],
+  "safety": {
+    "max_posts_per_day": 1,
+    "max_comments_per_day": 20,
+    "max_connection_replies_per_day": 15,
+    "min_delay_sec_between_actions": 45,
+    "only_run_between_ist": ["08:00", "22:00"]
+  },
+  "telegram_bot_token": "PUT_FROM_BOTFATHER",
+  "telegram_chat_id": "PUT_YOUR_CHAT_ID",
+  "openai_api_key_env": "OPENAI_API_KEY"
+}

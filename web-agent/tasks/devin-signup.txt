@@ -1,0 +1,5 @@
+open https://app.devin.ai/auth/signup
+fill "#auth1-email" mytext12@playground.mailoven.com
+click button[type="submit"]
+snapshot
+screenshot traces/devin_after.png

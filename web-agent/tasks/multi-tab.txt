@@ -1,0 +1,11 @@
+# multi-tab human-like OTP flow: Devin signup + MailOven inbox
+# tab 0 = Devin, tab 1 = MailOven playground
+open https://app.devin.ai/auth/signup
+newtab https://mailoven.com/playground
+snapshot
+switch 0
+snapshot
+switch 1
+wait 2000
+snapshot
+tabs

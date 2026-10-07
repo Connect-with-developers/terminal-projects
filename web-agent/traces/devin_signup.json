@@ -1,0 +1,130 @@
+{
+  "task": "tasks/devin-signup.txt",
+  "human": true,
+  "fast": false,
+  "see": false,
+  "steps": [
+    {
+      "n": 1,
+      "cmd": {
+        "action": "open",
+        "url": "https://app.devin.ai/auth/signup",
+        "steps": 12,
+        "human": true,
+        "fast": false,
+        "headless": true,
+        "real": true
+      },
+      "result": {
+        "ok": true,
+        "title": "Sign up",
+        "url_final": "https://app.devin.ai/auth/signup",
+        "timing_ms": 4526,
+        "mode": "real",
+        "see_title": "Sign up",
+        "see_url": "https://app.devin.ai/auth/signup"
+      }
+    },
+    {
+      "n": 2,
+      "cmd": {
+        "action": "fill",
+        "selector": "#auth1-email",
+        "text": "mytext12@playground.mailoven.com",
+        "url": "https://app.devin.ai/auth/signup",
+        "steps": 12,
+        "human": true,
+        "fast": false,
+        "headless": true,
+        "real": true
+      },
+      "result": {
+        "ok": true,
+        "title": "Sign up",
+        "url_final": "https://app.devin.ai/auth/signup",
+        "timing_ms": 248,
+        "mode": "real",
+        "see_title": "Sign up",
+        "see_url": "https://app.devin.ai/auth/signup"
+      }
+    },
+    {
+      "n": 3,
+      "cmd": {
+        "action": "click",
+        "selector": "button[type=submit]",
+        "url": "https://app.devin.ai/auth/signup",
+        "steps": 12,
+        "human": true,
+        "fast": false,
+        "headless": true,
+        "real": true
+      },
+      "result": {
+        "ok": true,
+        "title": "Sign up",
+        "url_final": "https://app.devin.ai/auth/signup",
+        "timing_ms": 573,
+        "mode": "real",
+        "see_title": "Sign up",
+        "see_url": "https://app.devin.ai/auth/signup"
+      }
+    },
+    {
+      "n": 4,
+      "cmd": {
+        "action": "snapshot",
+        "url": "https://app.devin.ai/auth/signup",
+        "steps": 12,
+        "human": true,
+        "fast": false,
+        "headless": true,
+        "real": true
+      },
+      "result": {
+        "ok": true,
+        "title": "Sign up",
+        "url_final": "https://app.devin.ai/auth/signup",
+        "body_sample": "Welcome to Devin\n\nCreate a new account\n\nContinue with GitHub\nContinue with Google\nContinue with ChatGPT\nContinue with Windsurf\nOR\nEmail address\nChecking...\n\nAlready have an account? Log in",
+        "links": 1,
+        "inputs": 2,
+        "captcha": {
+          "captcha": false,
+          "markers": []
+        },
+        "timing_ms": 41,
+        "mode": "real",
+        "see_title": "Sign up",
+        "see_url": "https://app.devin.ai/auth/signup"
+      }
+    },
+    {
+      "n": 5,
+      "cmd": {
+        "action": "screenshot",
+        "output": "traces/devin_after.png",
+        "url": "https://app.devin.ai/auth/signup",
+        "steps": 12,
+        "human": true,
+        "fast": false,
+        "headless": true,
+        "real": true
+      },
+      "result": {
+        "ok": true,
+        "screenshot": "traces/devin_after.png",
+        "title": "Sign up",
+        "captcha": {
+          "captcha": false,
+          "markers": []
+        },
+        "timing_ms": 197,
+        "mode": "real",
+        "see_title": "Sign up",
+        "see_url": "https://app.devin.ai/auth/signup"
+      }
+    }
+  ],
+  "status": "success",
+  "duration_ms": 7410
+}

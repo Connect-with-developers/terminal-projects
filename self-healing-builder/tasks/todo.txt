@@ -1,4 +1,0 @@
-Create a todo task manager with:
-- class TodoList with methods add(title), complete(task_id), remove(task_id), list_all()
-- each task is dict with id, title, done
-Include docstrings and type hints.

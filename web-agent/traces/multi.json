@@ -1,0 +1,450 @@
+{
+  "task": "tasks/multi-tab.txt",
+  "human": true,
+  "fast": false,
+  "see": false,
+  "steps": [
+    {
+      "n": 1,
+      "cmd": {
+        "action": "open",
+        "url": "https://app.devin.ai/auth/signup",
+        "steps": 12,
+        "human": true,
+        "fast": false,
+        "headless": true,
+        "real": false
+      },
+      "result": {
+        "ok": true,
+        "mode": "simulate",
+        "action": "open",
+        "url": "https://app.devin.ai/auth/signup",
+        "think_ms": 807,
+        "profile": {
+          "viewport": {
+            "width": 2560,
+            "height": 1440
+          },
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0"
+        },
+        "timing_ms": 0,
+        "sim_tabs": [
+          "https://app.devin.ai/auth/signup"
+        ],
+        "sim_active": 0
+      }
+    },
+    {
+      "n": 2,
+      "cmd": {
+        "action": "new_tab",
+        "url": "https://mailoven.com/playground",
+        "steps": 12,
+        "human": true,
+        "fast": false,
+        "headless": true,
+        "real": false,
+        "tab": 1
+      },
+      "result": {
+        "ok": true,
+        "mode": "simulate",
+        "action": "new_tab",
+        "url": "https://mailoven.com/playground",
+        "tab": 1,
+        "cursor_path": [
+          [
+            100.0,
+            100.0
+          ],
+          [
+            111.2,
+            86.1
+          ],
+          [
+            124.1,
+            74.3
+          ],
+          [
+            138.4,
+            64.1
+          ],
+          [
+            154.1,
+            55.4
+          ],
+          [
+            170.8,
+            47.9
+          ],
+          [
+            188.2,
+            41.2
+          ],
+          [
+            206.3,
+            35.2
+          ],
+          [
+            224.8,
+            29.5
+          ],
+          [
+            243.4,
+            23.8
+          ],
+          [
+            262.0,
+            18.0
+          ]
+        ],
+        "tab_delay_ms": 428,
+        "think_ms": 683,
+        "profile": {
+          "viewport": {
+            "width": 412,
+            "height": 915
+          },
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+        },
+        "timing_ms": 0,
+        "sim_tabs": [
+          "https://app.devin.ai/auth/signup",
+          "https://mailoven.com/playground"
+        ],
+        "sim_active": 1
+      }
+    },
+    {
+      "n": 3,
+      "cmd": {
+        "action": "snapshot",
+        "url": "https://mailoven.com/playground",
+        "steps": 12,
+        "human": true,
+        "fast": false,
+        "headless": true,
+        "real": false
+      },
+      "result": {
+        "ok": true,
+        "mode": "simulate",
+        "action": "snapshot",
+        "url": "https://mailoven.com/playground",
+        "think_ms": 899,
+        "profile": {
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0"
+        },
+        "timing_ms": 0,
+        "sim_tabs": [
+          "https://app.devin.ai/auth/signup",
+          "https://mailoven.com/playground"
+        ],
+        "sim_active": 1
+      }
+    },
+    {
+      "n": 4,
+      "cmd": {
+        "action": "switch",
+        "tab": 0,
+        "url": "https://mailoven.com/playground",
+        "steps": 12,
+        "human": true,
+        "fast": false,
+        "headless": true,
+        "real": false
+      },
+      "result": {
+        "ok": true,
+        "mode": "simulate",
+        "action": "switch",
+        "tab": 0,
+        "cursor_path": [
+          [
+            100.0,
+            100.0
+          ],
+          [
+            103.0,
+            88.4
+          ],
+          [
+            104.5,
+            76.8
+          ],
+          [
+            105.0,
+            65.4
+          ],
+          [
+            104.8,
+            54.4
+          ],
+          [
+            104.3,
+            44.0
+          ],
+          [
+            103.9,
+            34.5
+          ],
+          [
+            104.0,
+            26.1
+          ],
+          [
+            105.0,
+            19.0
+          ]
+        ],
+        "tab_delay_ms": 320,
+        "think_ms": 773,
+        "url": "https://mailoven.com/playground",
+        "profile": {
+          "viewport": {
+            "width": 1366,
+            "height": 768
+          },
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0"
+        },
+        "timing_ms": 0,
+        "sim_tabs": [
+          "https://app.devin.ai/auth/signup",
+          "https://mailoven.com/playground"
+        ],
+        "sim_active": 0
+      }
+    },
+    {
+      "n": 5,
+      "cmd": {
+        "action": "snapshot",
+        "url": "https://mailoven.com/playground",
+        "steps": 12,
+        "human": true,
+        "fast": false,
+        "headless": true,
+        "real": false
+      },
+      "result": {
+        "ok": true,
+        "mode": "simulate",
+        "action": "snapshot",
+        "url": "https://mailoven.com/playground",
+        "think_ms": 911,
+        "profile": {
+          "viewport": {
+            "width": 1366,
+            "height": 768
+          },
+          "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15"
+        },
+        "timing_ms": 0,
+        "sim_tabs": [
+          "https://app.devin.ai/auth/signup",
+          "https://mailoven.com/playground"
+        ],
+        "sim_active": 0
+      }
+    },
+    {
+      "n": 6,
+      "cmd": {
+        "action": "switch",
+        "tab": 1,
+        "url": "https://mailoven.com/playground",
+        "steps": 12,
+        "human": true,
+        "fast": false,
+        "headless": true,
+        "real": false
+      },
+      "result": {
+        "ok": true,
+        "mode": "simulate",
+        "action": "switch",
+        "tab": 1,
+        "cursor_path": [
+          [
+            100.0,
+            100.0
+          ],
+          [
+            118.7,
+            90.1
+          ],
+          [
+            138.6,
+            79.7
+          ],
+          [
+            159.0,
+            69.2
+          ],
+          [
+            179.0,
+            58.9
+          ],
+          [
+            198.2,
+            49.2
+          ],
+          [
+            215.7,
+            40.4
+          ],
+          [
+            230.8,
+            32.9
+          ],
+          [
+            243.0,
+            27.0
+          ]
+        ],
+        "tab_delay_ms": 373,
+        "think_ms": 1164,
+        "url": "https://mailoven.com/playground",
+        "profile": {
+          "viewport": {
+            "width": 1536,
+            "height": 864
+          },
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+        },
+        "timing_ms": 0,
+        "sim_tabs": [
+          "https://app.devin.ai/auth/signup",
+          "https://mailoven.com/playground"
+        ],
+        "sim_active": 1
+      }
+    },
+    {
+      "n": 7,
+      "cmd": {
+        "action": "wait",
+        "ms": 2000,
+        "url": "https://mailoven.com/playground",
+        "steps": 12,
+        "human": true,
+        "fast": false,
+        "headless": true,
+        "real": false
+      },
+      "result": {
+        "ok": true,
+        "mode": "simulate",
+        "action": "wait",
+        "waited_ms": 2000,
+        "think_ms": 0,
+        "profile": {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+        },
+        "timing_ms": 0,
+        "sim_tabs": [
+          "https://app.devin.ai/auth/signup",
+          "https://mailoven.com/playground"
+        ],
+        "sim_active": 1
+      }
+    },
+    {
+      "n": 8,
+      "cmd": {
+        "action": "snapshot",
+        "url": "https://mailoven.com/playground",
+        "steps": 12,
+        "human": true,
+        "fast": false,
+        "headless": true,
+        "real": false
+      },
+      "result": {
+        "ok": true,
+        "mode": "simulate",
+        "action": "snapshot",
+        "url": "https://mailoven.com/playground",
+        "think_ms": 612,
+        "profile": {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15"
+        },
+        "timing_ms": 0,
+        "sim_tabs": [
+          "https://app.devin.ai/auth/signup",
+          "https://mailoven.com/playground"
+        ],
+        "sim_active": 1
+      }
+    },
+    {
+      "n": 9,
+      "cmd": {
+        "action": "tabs",
+        "url": "https://mailoven.com/playground",
+        "steps": 12,
+        "human": true,
+        "fast": false,
+        "headless": true,
+        "real": false,
+        "tabs": [
+          {
+            "i": 0,
+            "url": "https://app.devin.ai/auth/signup"
+          },
+          {
+            "i": 1,
+            "url": "https://mailoven.com/playground"
+          }
+        ],
+        "tab": 1
+      },
+      "result": {
+        "ok": true,
+        "mode": "simulate",
+        "action": "tabs",
+        "tabs": [
+          {
+            "i": 0,
+            "url": "https://app.devin.ai/auth/signup"
+          },
+          {
+            "i": 1,
+            "url": "https://mailoven.com/playground"
+          }
+        ],
+        "active": 1,
+        "think_ms": 670,
+        "profile": {
+          "viewport": {
+            "width": 2560,
+            "height": 1440
+          },
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+        },
+        "timing_ms": 0,
+        "sim_tabs": [
+          "https://app.devin.ai/auth/signup",
+          "https://mailoven.com/playground"
+        ],
+        "sim_active": 1
+      }
+    }
+  ],
+  "status": "success",
+  "duration_ms": 974
+}
